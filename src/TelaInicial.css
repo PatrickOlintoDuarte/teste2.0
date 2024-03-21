@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.bodyy {
+    background: linear-gradient(45deg, #ccb4e2, #b899f5);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;  
+    flex-grow: 6;
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Para garantir que o header ocupe toda a largura da janela */
+    background-color: #ad89c2; /* Cor de fundo do header */
+    color: #fff; /* Cor do texto no header */
+    padding: 1px 20px; /* Adiciona algum espaçamento interno para separar os itens das bordas do header */
+    z-index: 1000; /* Garante que o header esteja sempre na frente de outros elementos */
+    
+}
+.logo {
+    width: 148px;
+    height: 78px;
+    margin-left: 30px; /* Adiciona margem à direita para separar do próximo elemento */
+    margin-top: 30px;
+    margin-right: 1380px;
+    margin-bottom: 20px;
+}
+.Vector {
+    height: 50px;
+    width: 59px;
+    margin-left: 10px; /* Adiciona margem à esquerda para separar do elemento anterior */
+}
+.h1{
+    height: 10px;
+    width: 10px;
+}
+.campos{
+    width: auto;
+    display: flex;
+    margin: 30px;
+}
+.div1{
+    background-color: #A46CC4;
+    width: 242px;
+    height: 234px;
+    margin: 30px;
+    padding-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.div1 p{
+    color: white;
+    font-size: 23px;
+}
