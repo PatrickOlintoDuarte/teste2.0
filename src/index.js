@@ -7,6 +7,8 @@ import Login from "./Componentes/auth/Login";
 import Signup from "./Signup";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";  
 import TelaInicial from './TelaInicial';
+import TelaAtividade from './TelaAtividade';
+import TelaGit from './Telas/UploadGit/TelaGit';
 
 
 const router = createBrowserRouter([
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
   {
     path: "/telainicial",
     element: <TelaInicial />,
+  },
+  {
+    path: "/telaatividade",
+    element: <TelaAtividade />,
+  },
+  {
+    path: "/telagit",
+    element: <TelaGit />,
   },
 ])
 

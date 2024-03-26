@@ -15,29 +15,31 @@ function TelaInicial() {
     return (
       <div>
         <header>
-          <img src={logo} alt="Logo" className="logo" />
-          <img src={Vector} alt="Vector" />
-          <h1>ADMIN</h1>
+          <img src={logo} alt="Logo" class="logo" />
+          <div class="vector-container">
+              <img src={Vector} alt="Vector" class="Vector" />
+              <h1>ADMIN</h1>
+          </div>
         </header>
         <body className='bodyy'>
-          <h2>Seja Bem Vindo!</h2>
+          <h2 className='BemVindo'>Seja Bem Vindo!</h2>
           <div className='campos'>
               <div className='div1'>
                 <img src={admin} alt="admin" />
                 <p>Gerenciar Analista</p>
               </div>
-              <div className='div1'>
-                <img src={arquivo} alt="arquivo" />
-                <p>Gerenciar Atividade</p>
-              </div>
+              <Link to="/telaatividade" className='div1'>
+                        <img src={arquivo} alt="arquivo" />
+                        <p>Gerenciar Atividade</p>
+              </Link>
               <div className='div1'>
                 <img src={pesquisar} alt="pesquisar" />
                 <p>Consultar Métricas</p>
               </div>
-              <div className='div1'>
-                <img src={solar} alt="solar" />
-                <p>Upload GitHub</p>
-              </div>
+              <Link to="/telagit" className='div1'>
+                        <img src={solar} alt="solar" />
+                        <p>Upload GitHub</p>
+              </Link>
           </div>
         </body>
       </div>
